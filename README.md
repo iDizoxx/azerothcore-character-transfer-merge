@@ -55,7 +55,6 @@ If you choose **Method 2**, apply the following SQL script:
 ```sql
 -- Update in database acore_auth
 UPDATE acore_auth.account SET id = id + 99000;
-
 -- Update in database acore_characters
 UPDATE acore_characters.characters SET account = account + 99000;
 UPDATE acore_characters.characters SET guid = guid + 88000;
@@ -70,26 +69,50 @@ UPDATE acore_characters.arena_team_member SET arenaTeamId = arenaTeamId + 77000;
 UPDATE acore_characters.arena_team_member SET guid = guid + 88000;
 
 UPDATE acore_characters.battleground_deserters SET guid = guid + 88000;
+UPDATE acore_characters.character_account_data SET guid = guid + 88000;
 UPDATE acore_characters.character_achievement SET guid = guid + 88000;
+UPDATE acore_characters.character_achievement_offline_updates SET guid = guid + 88000;
+UPDATE acore_characters.character_achievement_progress SET guid = guid + 88000;
+UPDATE acore_characters.character_action SET guid = guid + 88000;
+UPDATE acore_characters.character_arena_stats SET guid = guid + 88000;
+UPDATE acore_characters.character_battleground_random SET guid = guid + 88000;
+UPDATE acore_characters.character_brew_of_the_month SET guid = guid + 88000;
+UPDATE acore_characters.character_entry_point SET guid = guid + 88000;
 UPDATE acore_characters.character_equipmentsets SET guid = guid + 88000;
+UPDATE acore_characters.character_gifts SET guid = guid + 88000;
 UPDATE acore_characters.character_glyphs SET guid = guid + 88000;
+UPDATE acore_characters.character_homebind SET guid = guid + 88000;
+UPDATE acore_characters.character_instance SET guid = guid + 88000;
 UPDATE acore_characters.character_inventory SET guid = guid + 88000;
 
 UPDATE acore_characters.character_pet SET id = id + 66000;
 UPDATE acore_characters.character_pet SET owner = owner + 88000;
 
 UPDATE acore_characters.character_queststatus SET guid = guid + 88000;
+UPDATE acore_characters.character_queststatus_daily SET guid = guid + 88000;
+UPDATE acore_characters.character_queststatus_monthly SET guid = guid + 88000;
+UPDATE acore_characters.character_queststatus_rewarded SET guid = guid + 88000;
+UPDATE acore_characters.character_queststatus_seasonal SET guid = guid + 88000;
+UPDATE acore_characters.character_queststatus_weekly SET guid = guid + 88000;
+UPDATE acore_characters.character_reputation SET guid = guid + 88000;
+UPDATE acore_characters.character_skills SET guid = guid + 88000;
 UPDATE acore_characters.character_social SET guid = guid + 88000;
 UPDATE acore_characters.character_social SET friend = friend + 88000;
+UPDATE acore_characters.character_spell SET guid = guid + 88000;
+UPDATE acore_characters.character_spell_cooldown SET guid = guid + 88000;
+UPDATE acore_characters.character_stats SET guid = guid + 88000;
 UPDATE acore_characters.character_talent SET guid = guid + 88000;
 UPDATE acore_characters.corpse SET guid = guid + 88000;
+UPDATE acore_characters.creature_respawn SET guid = guid + 88000;
 
 UPDATE acore_characters.guild SET guildid = guildid + 55000;
 UPDATE acore_characters.guild SET leaderguid = leaderguid + 88000;
 UPDATE acore_characters.guild_bank_item SET guildid = guildid + 55000;
 
 UPDATE acore_characters.pet_aura SET guid = guid + 66000;
+UPDATE acore_characters.pet_aura SET casterGuid = casterGuid + 88000;
 UPDATE acore_characters.pet_spell SET guid = guid + 66000;
+UPDATE acore_characters.pet_spell SET guid = guid + 88000;
 ```
 
 ### Step 4: Export Required Tables
