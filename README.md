@@ -6,6 +6,9 @@ Method for merging or transferring an AzerothCore database from one server to an
 
 ## Introduction
 This guide provides a step-by-step method for merging or transferring an AzerothCore database from one server to another. The process ensures that account, character, and other relevant data are correctly incremented to avoid ID conflicts. 
+Please be aware that we are not responsible for any issues that may arise during changes. It is strongly recommended that you save all your data before making any modifications to ensure no information is lost.
+
+Thank you for your understanding!
 
 ### Logic for Merging
 - Set the logic parameters for merging based on either an incremental method or a predefined set of values.
